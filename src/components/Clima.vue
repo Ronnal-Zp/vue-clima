@@ -20,4 +20,6 @@
             <p>Max {{ formatTemperatura(clima.main.temp_max) }}<span>&deg;C</span></p>
         </div>
     </div>
+
+    
 </template>
