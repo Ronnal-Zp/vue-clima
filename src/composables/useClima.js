@@ -13,7 +13,7 @@ export default function useClima() {
         clima.value = {};
         error.value = '';
         
-        const url = `http://api.openweathermap.org/geo/1.0/direct?q=${ciudad},${pais}&limit=1&appid=${VITE_API_KEY}`;
+        const url = `https://api.openweathermap.org/geo/1.0/direct?q=${ciudad},${pais}&limit=1&appid=${VITE_API_KEY}`;
 
         try {
             const { data } = await axios(url);
